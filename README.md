@@ -58,9 +58,9 @@ Clone the repository and install the required dependencies:
 ## Citation
 If you find this code or our fuzzy rule extraction methodology useful for your research, please consider citing our paper:
 ```
-@inproceedings{chammar2026interpretable,
+@inproceedings{chhetri2026interpretable,
   title={Interpretable Solar Panel Defect Detection via Fuzzy Rule Extraction from Deep Learning Architectures},
-  author={Chammar, Aman and God, Latchan},
+  author={Chhetri, Latchan and Kumar, Aman and Das, Hrishikesh and Singh, Yogesh},
   booktitle={2026 International Conference on Sustainable AI for Social Impact and Global Development (SASIGD)},
   year={2026},
   organization={IEEE}
