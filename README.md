@@ -50,8 +50,9 @@ Our experiments prove that modern hierarchical transformers and modern CNNs lear
 ### Prerequisites
 Clone the repository and install the required dependencies:
 ```bash
-git clone [https://github.com/YourUsername/NeuroFuzzy-Solar-Defect.git](https://github.com/YourUsername/NeuroFuzzy-Solar-Defect.git)
-cd NeuroFuzzy-Solar-Defect
+- git clone [https://github.com/YourUsername/NeuroFuzzy-Solar-Defect.git](https://github.com/YourUsername/NeuroFuzzy-Solar-Defect.git)
+- download the dataset
+- run the code given one by one 
 ```
 
 ## Citation
