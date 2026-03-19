@@ -2,25 +2,18 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-SASIGD%202026-blue?style=for-the-badge)](https://sasigd.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge&logo=python)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-ELPV-orange?style=for-the-badge)](https://www.kaggle.com/datasets/ahmedashrafahmed/elpv-dataset-master)
 
-**Official implementation of our SASIGD 2026 paper**
-
-*Latchan Chhetri\*, Hrishikesh Das, Yogesh Singh*
-
-Sikkim Manipal Institute of Technology, Sikkim Manipal University
-
-\* Corresponding author
+**Official implementation**
 
 </div>
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This repository contains the official code for our hybrid **interpretable AI framework** that automatically extracts human-readable **fuzzy logic IF-THEN rules** from trained deep learning models for solar panel defect detection.
 
@@ -30,7 +23,7 @@ Most deep learning approaches for photovoltaic (PV) defect detection are black b
 
 | Model | Accuracy | Feature-Severity Correlation | Inference |
 |-------|----------|------------------------------|-----------|
-| **Swin-Tiny ⭐** | **80.96%** | 0.78 | 22ms |
+| **Swin-Tiny ** | **80.96%** | 0.78 | 22ms |
 | ConvNeXt-Tiny | 80.71% | **0.82** | 18ms |
 | ViT-Tiny | 79.44% | — | 24ms |
 | EfficientNetB0 | 74.62% | 0.42 | 11ms |
@@ -38,7 +31,7 @@ Most deep learning approaches for photovoltaic (PV) defect detection are black b
 
 ---
 
-## 🏗️ Framework Architecture
+##  Framework Architecture
 
 ![Architecture](architecture.png)
 
@@ -66,7 +59,7 @@ Swin-Tiny:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Interpretable-Solar-Defect-Detection/
@@ -86,26 +79,26 @@ Interpretable-Solar-Defect-Detection/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### 1. Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/Latchan-Ch/Interpretable-Solar-Defect-Detection.git
 cd Interpretable-Solar-Defect-Detection
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 pip install torch torchvision timm scikit-learn matplotlib seaborn numpy pandas jupyter
 ```
 
-### 3. Download the ELPV dataset
+### Download the ELPV dataset
 
 Download from [Kaggle](https://www.kaggle.com/datasets/ahmedashrafahmed/elpv-dataset-master) and place in your working directory.
 
-### 4. Run the notebook
+### Run the notebook
 
 ```bash
 jupyter notebook FINAL_NOTEBOOK.ipynb
@@ -121,7 +114,7 @@ The notebook covers end-to-end:
 
 ---
 
-## 📊 Visualisations
+## Visualisations
 
 ### t-SNE Feature Space Comparison
 
@@ -143,7 +136,7 @@ ResNet50 fixates on narrow crack edges. Swin-Tiny attends to both defect regions
 
 ---
 
-## 📋 Dataset
+## Dataset
 
 We use the **ELPV (Electroluminescence Photovoltaic)** benchmark dataset.
 
@@ -161,7 +154,7 @@ Download: [Kaggle ELPV Dataset](https://www.kaggle.com/datasets/ahmedashrafahmed
 
 ---
 
-## ⚙️ Training Details
+## Training Details
 
 | Setting | Value |
 |---------|-------|
@@ -175,7 +168,7 @@ Download: [Kaggle ELPV Dataset](https://www.kaggle.com/datasets/ahmedashrafahmed
 
 ---
 
-## 📄 Citation
+## Citations
 
 If you use this code or find this work helpful, please cite:
 
@@ -190,28 +183,16 @@ If you use this code or find this work helpful, please cite:
   publisher = {IEEE}
 }
 ```
-
 ---
 
-## 🔗 Related Links
+## Contact
 
-- 📄 **Conference:** [SASIGD 2026](https://sasigd.org/)
-- 📦 **Dataset:** [ELPV on Kaggle](https://www.kaggle.com/datasets/ahmedashrafahmed/elpv-dataset-master)
-- 🏛️ **Institution:** [SMIT, Sikkim Manipal University](https://smit.smu.edu.in/)
-
----
-
-## 📬 Contact
-
-**Latchan Chhetri** *(Corresponding Author)*
+Latchan Chhetri
 Dept. of Artificial Intelligence and Data Science
 Sikkim Manipal Institute of Technology
-📧 latchanchhetri19@gmail.com
+-> latchanchhetri19@gmail.com
 
 ---
 
 <div align="center">
-
-⭐ If this work helped you, please consider starring the repo!
-
 </div>
