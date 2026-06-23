@@ -112,7 +112,7 @@ The notebook covers end-to-end:
 - Grad-CAM / attention map generation
 - Hybrid inference evaluation
 
----
+----
 
 ## Visualisations
 
