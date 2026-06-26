@@ -188,9 +188,7 @@ If you use this code or find this work helpful, please cite:
 ## Contact
 
 Latchan Chhetri
-Dept. of Artificial Intelligence and Data Science
-Sikkim Manipal Institute of Technology
--> latchanchhetri19@gmail.com
+latchanchhetri19@gmail.com
 
 ---
 
